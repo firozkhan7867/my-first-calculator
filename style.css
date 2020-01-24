@@ -1,0 +1,109 @@
+body {
+    background-color: blue;
+}
+
+.calculator {
+    width: 300px;
+    height: auto;
+    margin: 3% auto;
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 20px;
+    border: 4px solid black;
+}
+
+.screen {
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 6px;
+    position: absolute;
+    height: 70px;
+    background-color: rgb(203, 224, 195);
+    margin: auto;
+    font-size: 40px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.degits {
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: 4px black;
+}
+
+.screen:focus {
+    outline: none;
+}
+
+.buttons {
+    width: 220px;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons button {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin: 0px 0px 10px 5px;
+    background: cadetblue;
+    color: #333;
+    border-radius: 15px;
+    border: 6px black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#clear {
+    background: #e02df0;
+    border: 1px solid #e02df0;
+}
+
+#clear:active {
+    border: 1px solid #bbbbbb;
+}
+
+#equal {
+    width: 100px;
+    background: #c03;
+    color: #fff;
+    margin-top: auto;
+}
+
+#equals:active {
+    border: 4px solid #fff;
+}
+
+.degits:active {
+    border: 2px solid blue;
+}
+
+#minus,
+#plus,
+#devide,
+#multiply {
+    background: #c03;
+    color: #fff;
+    margin-top: auto;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#minus:active {
+    border: 1px solid white;
+}
+
+button:hover {
+    font-size: x-large;
+    border: 4px solid black;
+}
+
+.buttons:button:active {
+    color: #fff;
+    border: 1px solid #333;
+}
